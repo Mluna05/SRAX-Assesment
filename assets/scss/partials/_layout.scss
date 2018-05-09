@@ -1,0 +1,123 @@
+$susy: (
+	columns: 12,
+	gutters:1/6,
+	global-box-sizing: border-box
+);
+
+.wrap {
+	@include container(70%);
+}
+
+.site-branding {
+	@include susy-breakpoint($medium) {
+		@include span(3);
+	}
+}
+
+.header-nav {
+	@include susy-breakpoint($medium) {
+		@include span(9);
+		@include last;
+		padding-top: 70px;
+		width: 50%;
+	}
+}
+
+
+.site-inner{
+	padding: 70px 0;
+}
+
+
+.title-features{
+	@include clearfix;
+}
+
+
+.title-features .title-feature{
+
+	@include susy-breakpoint($medium, $large - 1) {
+		@include span(6);
+
+		&:nth-child(2){
+			@include last;
+		}
+
+	}
+
+	@include susy-breakpoint($large) {
+		@include span(6);
+
+		&:nth-child(2) {
+			@include last;
+		}
+	}
+
+}
+
+
+.features{
+	@include clearfix;
+}
+
+.feature-wrap{
+	padding: 10px 10px;
+}
+
+.features .feature{
+
+	box-shadow: -1px 3px 29px -5px rgba(0,0,0,0.75);
+	
+	@include susy-breakpoint($medium, $large - 1) {
+		@include span(4);
+
+		&:nth-child(3){
+			@include last;
+		}
+
+	}
+
+	@include susy-breakpoint($large) {
+		@include span(4);
+
+		&:nth-child(3) {
+			@include last;
+		}
+	}
+
+}
+
+.footer-features{
+	@include clearfix;
+}
+
+
+.footer-features .footer-feature{
+
+	@include susy-breakpoint($medium, $large - 1) {
+		@include span(3);
+
+		&:nth-child(4){
+			@include last;
+		}
+
+	}
+
+	@include susy-breakpoint($large) {
+		@include span(3);
+
+		&:nth-child(4) {
+			@include last;
+		}
+	}
+
+}
+
+.content{
+
+
+	@include susy-breakpoint($large) {
+		@include span(8);
+	}
+}
+

@@ -1,0 +1,25 @@
+{
+  "name": "srax",
+  "version": "0.0.1",
+  "description": "This is a project as an evaluation for the company SRAX",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mario Luna",
+  "license": "ISC",
+  "devDependencies": {
+    "bourbon": "^5.0.0",
+    "grunt": "~1.0.2",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.1",
+    "grunt-sass": "^2.1.0",
+    "load-grunt-tasks": "^4.0.0",
+    "normalize-strings": "^1.1.0",
+    "normalize.css": "^8.0.0",
+    "susy": "^2.2.12"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

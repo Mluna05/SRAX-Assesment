@@ -1,0 +1,22 @@
+.hero .overlay {
+	background: rgba($black, .5);
+}
+
+.hero {
+	text-align: left;
+	color: $white;
+}
+
+.hero .wrap {
+	padding: 120px 0;
+}
+
+.feature img {
+	@include size(100%, auto);
+}
+
+.customer img {
+	@include size(150px);
+}
+
+

@@ -1,0 +1,19 @@
+.site-footer {
+	background: $blue;
+	text-align: center;
+	color: $white;
+}
+
+.social-menu a {
+	color: $blue;
+
+	&:before {
+		font-family: FontAwesome;
+		padding-right: 5px;
+	}
+
+}
+
+.copy-wrap{
+	background-color: $blue_deep;
+}
